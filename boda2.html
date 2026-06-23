@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestra Invitación de Boda</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <audio id="musica-boda" loop>
+        <source src="musica/musica de boda.mpeg" type="audio/mpeg">
+       
+    </audio>
+
+    <div id="envelope-container" class="envelope-container">
+        <p class="envelope-title">EL COMIENZO DE NUESTRO NUEVO CAPÍTULO</p>
+        <div class="envelope" id="envelope">
+            <div class="envelope-paper">
+                <h1 class="names-envelope">Fernando & Ana</h1>
+            </div>
+            <div class="wax-seal" id="wax-seal"></div>
+        </div>
+        <p class="click-instruction">HAZ CLIC EN EL SOBRE PARA ABRIR</p>
+    </div>
+
+    <div id="main-content" class="main-content hidden">
+        
+        <section class="section photo-section">
+            <div class="wedding-photo-container">
+                <img src="img/manos juntas.jpeg" class="wedding-photo">
+            </div>
+            <h2>TENEMOS EL HONOR DE INVITARTE A NUESTRA BODA</h2>
+            <h1 class="couple-names">Fernando <span class="last-name"></span></h1>
+            <p class="ampersand">&</p>
+            <h1 class="couple-names">Ana <span class="last-name"></span></h1>
+        </section>
+
+        <section class="section countdown-section">
+            <p class="phrase">"Entre millones de caminos, nuestros corazones se encontraron..."</p>
+            <h3>NUESTRA BODA</h3>
+            <div class="date-highlight">Agosto Sábado 08-2026</div>
+            
+            <p>La espera termina en:</p>
+            <div class="countdown-timer">
+                <div class="time-block"><span id="days">00</span><p>DÍAS</p></div>
+                <div class="time-block"><span id="hours">00</span><p>HORAS</p></div>
+                <div class="time-block"><span id="minutes">00</span><p>MINUTOS</p></div>
+                <div class="time-block"><span id="seconds">00</span><p>SEGUNDOS</p></div>
+            </div>
+        </section>
+
+        <section class="section padrinos-section">
+            <div class="caja-padrinos">
+                <h2>NUESTROS PADRINOS</h2>
+                <div class="padrinos-contenido">
+                    <p class="padrino"><strong></strong> Santos Francisco Catacora Mamani</p>
+                    <p class="madrina"><strong></strong> Guillermina Lidia Laqui de Catacora</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section itinerary-section">
+            <h2>ITINERARIO</h2>
+            <div class="timeline">
+                <div class="event">
+                </div>
+                <div class="event">
+                    <strong>2:00 PM</strong>
+                    <p>Inicio de la Ceremonia Civil</p>
+                </div>
+                <div class="event">
+                    <strong>4:00 PM</strong>
+                    <p> Brindis de Confraternidad</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section location-section">
+            <h2>UBICACIÓN</h2>
+            
+            <div class="location-card">
+                <h3>Ceremonia Civil</h3>
+                <p>Ramon Castilla 610 URB La Libertad-Cerro Colorado </p>
+                <a href="https://maps.app.goo.gl/6XcQkHQMz4fYuJ7o6?g_st=aw" target="_blank" class="btn">VER MAPA</a>
+            </div>
+
+            <div class="location-card">
+                <h3>Recepción</h3>
+                <p>Ramon Castilla 610 URB La Libertad-Cerro Colorado </p>
+                <a href="https://maps.app.goo.gl/6XcQkHQMz4fYuJ7o6?g_st=aw" target="_blank" class="btn">VER MAPA</a>
+            </div>
+        </section>
+
+        <section class="section details-section">
+            <h3>Codigo de Vestimenta</h3>
+            <p><strong>Formal </strong></p>
+            <p>La celebración se realizará al aire libre.</p>
+            
+            <hr class="separator">
+            
+            <h3>SUGERENCIA DE REGALOS</h3>
+            <p>Si deseas tener un detalle con nosotros sera bienvenido, sera un recuerdo muy 
+                especial de ese dia tan importante para nosotros </p>
+        </section>
+
+        <section class="section rsvp-section">
+            <h2>CONFIRMA TU ASISTENCIA</h2>
+            <p>Por favor, ayúdanos confirmando antes del 10 de Julio.</p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdF9F5f1Ta6Z8PlA6h6qFDeoXjfM_5L5VRZ3bA_bCSCXpXupQ/viewform?usp=header" target="_blank" class="btn btn-rsvp">CONFIRMAR ASISTENCIA</a>
+        </section>
+    </div>
+
+    <script src="js/java.js"></script>
+</body>
+</html>
